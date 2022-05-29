@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #8c8c8c;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.form-control,
+.form-control:focus {
+  background-color: #c5c5c5;
+  color: #000;
+  border-color: #8c5121;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem #8c5121;
+}
+
+.navbar-dark .navbar-brand {
+  color: #dea415;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.form-switch .form-check-input:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27rgba%280, 0, 0, 0.25%29%27/%3e%3c/svg%3e");
+}
+
+.form-switch input {
+  cursor: pointer;
+}
+
+.form-check-input {
+  background-color: #adadad;
+}
+
+.form-check-input:checked {
+  background-color: #12b13a;
+  border-color: #128614;
+}
+
+.window .img-container {
+  position: relative;
+}
+
+.window .img-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+.window .img-container .overlay.off {
+  opacity: 0;
+}
+
+.window .img-container .overlay.on {
+  opacity: 0.5;
+}
+
+.window img {
+  height: 230px;
+}
+
+.window .card {
+  background-color: #202020;
+  border-radius: 20px;
+  box-shadow: 10px 6px 15px #250e0e;
+}
+
+.window .card-title {
+  color: #f1c769;
+}
+
+.window .list-group-item {
+  background-color: transparent;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .window .card {
+    box-shadow: none;
+  }
+}
